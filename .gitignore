@@ -1,0 +1,22 @@
+# Java / Maven
+backend/target/
+*.class
+
+# Local configuration and uploads
+backend/.env
+backend/src/main/resources/application-local.properties
+backend/uploads/
+uploads/
+
+# Frontend dependencies, build output, and local environment
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+!frontend/.env.example
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+.DS_Store
